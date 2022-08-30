@@ -16,9 +16,9 @@ export default function Register() {
 
   return (
     <section>
-      <form>
+      <form className="register">
       <label htmlFor="name">
-            Nome:
+            Nome
             <input
               type="text"
               name="name"
